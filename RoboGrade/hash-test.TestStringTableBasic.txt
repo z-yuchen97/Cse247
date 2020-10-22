@@ -1,0 +1,81 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2019-11-11 02:30:12 -0600
+
+========
+Testing in ./GradingRepos/repos/labs-z.yuchen: hash as of 2019-11-02 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-z.yuchen
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at a85a8c2 robograde
+No local changes to save
+
+Updating a85a8c2..37a7524
+Fast-forward
+ RoboGrade/heaps-test.TestMinHeap.txt |    217 +
+ labs/hash/StringTable.java           |     40 +-
+ labs/hash/output/case1-observed.txt  |     70 +-
+ labs/hash/output/case2-observed.txt  |   3426 +-
+ labs/hash/output/case3-observed.txt  | 324498 +-------------------------------
+ labs/hash/output/case4-observed.txt  | 298156 +----------------------------
+ 6 files changed, 379 insertions(+), 626028 deletions(-)
+ create mode 100644 RoboGrade/heaps-test.TestMinHeap.txt
+Going back in time to: 2019-11-02 00:05
+At hash 37a75249bc08cb16c7e0b0095c541af29eb9c81f
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key z.yuchen testfilesource test/TestStringTableBasic package hash repo ./GradingRepos/repos/labs-z.yuchen
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-z.yuchen/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key z.yuchen testfilesource SeqReader package hash repo ./GradingRepos/repos/labs-z.yuchen
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-z.yuchen/labs/hash
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-z.yuchen/bin
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTableBasic
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-z.yuchen/bin
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Running test test.TestStringTableBasic
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTableBasic
+    [junit] Testsuite: hash.test.TestStringTableBasic
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 sec
+    [junit] 
+    [junit] Testcase: testFind took 0.091 sec
+    [junit] Testcase: testInit took 0.001 sec
+    [junit] Testcase: testDelete took 0.017 sec
+    [junit] Testcase: testZeroHash took 0.009 sec
+    [junit] Testcase: testInsert took 0.003 sec
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2019-11-11 02:30:27 -0600
+-------------------
